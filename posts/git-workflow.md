@@ -1,5 +1,5 @@
 ---
-title: チーム開発で使う Git ブランチ戦略まとめ
+title: Git ブランチ戦略まとめ
 date: 2026-03-08
 tags:
   - Git

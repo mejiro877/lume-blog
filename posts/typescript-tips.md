@@ -1,5 +1,5 @@
 ---
-title: TypeScript で型安全を高める実践テクニック
+title: TypeScript 型安全テクニック
 date: 2026-03-15
 tags:
   - TypeScript

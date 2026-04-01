@@ -1,5 +1,5 @@
 ---
-title: 良い REST API 設計のための実践原則
+title: REST API 設計の実践原則
 date: 2026-03-29
 tags:
   - API

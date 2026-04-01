@@ -1,5 +1,5 @@
 ---
-title: Dockerをゼロから理解する — イメージとコンテナの基礎
+title: Docker 入門 — イメージとコンテナの基礎
 date: 2026-03-01
 tags:
   - Docker
