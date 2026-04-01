@@ -4,7 +4,7 @@ date: 2026-03-15
 tags:
   - TypeScript
   - JavaScript
-  - フロントエンド
+  - Frontend
 ---
 
 TypeScript は「型を書けばいい」だけではなく、型システムをうまく使うことでバグを設計レベルで防げます。日常的に使えるテクニックをまとめます。
