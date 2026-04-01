@@ -1,0 +1,23 @@
+<ul class="postList">
+  {{ for post of postslist }}
+  <li class="post">
+    <h2 class="post-title">
+      <a href="{{ post.url }}" {{ if post.url == url }} aria-current="page"{{ /if }}>
+        {{ post.title || post.url }}
+      </a>
+    </h2>
+
+    {{ include "templates/post-details.vto" {
+      date: post.date,
+      tags: post.tags,
+      author: post.author,
+      readingInfo: post.readingInfo
+    } }}
+
+    {{ if post.excerpt }}
+    <div class="post-excerpt">{{ post.excerpt |> md }}</div>
+    <a href="{{ post.url }}" class="read-more">続きを読む →</a>
+    {{ /if }}
+  </li>
+  {{ /for }}
+</ul>
