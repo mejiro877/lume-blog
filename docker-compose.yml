@@ -1,0 +1,16 @@
+services:
+  lume:
+    image: denoland/deno:latest
+    working_dir: /app
+    volumes:
+      - .:/app
+      - deno-cache:/deno-dir
+    ports:
+      - "3000:3000"
+    environment:
+      - DENO_DIR=/deno-dir
+      - DENO_WATCHING_POLLING=1
+    command: task serve
+
+volumes:
+  deno-cache:
