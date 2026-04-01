@@ -1,16 +1,19 @@
-lang: en
+lang: ja
 
 home:
-  welcome: Hello, I am a person that writes stuff.
+  welcome: プログラミングに関する技術ブログです。
 
 menu_links: []
-extra_head: []
 
-# Metas plugin https://lume.land/plugins/metas/#description
+extra_head:
+  - <link rel="preconnect" href="https://fonts.googleapis.com">
+  - <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  - '<link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&family=M+PLUS+Rounded+1c:wght@400;700;800&display=swap" rel="stylesheet">'
+
 metas:
-  site: lume-blog
-  description: mejiro877のブログ
+  site: mejiro877のブログ
+  description: プログラミングに関する技術ブログ
   title: "=title"
   image: "=image"
   twitter: "@username"
-  lang: en
+  lang: ja
